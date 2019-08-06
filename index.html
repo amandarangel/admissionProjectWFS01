@@ -4,6 +4,7 @@
 <head>
   <!-- Site Description -->
   <meta name="description" content="Esse é o site do projeto seletivo da future4">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <title>Projeto Seletivo Future 4</title>
 </head>
 <!-- CSS -->
@@ -12,33 +13,130 @@ body {
   background-color: #595f96ff;
 }
 h1 {
-  font: 1em sans-serif;
-  color: white
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
 #image1 {
   height: 210px;
   width: 450px;
+  
+ 
+}
+#first-p {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+  text-align: right
+}
+
+#second-p, #third-p, #fourth-p {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #cd4d00ff;
+  text-align: center;
+}
+
+#email-button {
+  font-weight: bold;
+  color: white;
+  background-color: #cd4d00ff;
+  border: 1px; 
+  border-top: 1px solid rgb(78, 71, 71); 
+  padding: 10px;
+  position: relative;
+  left: 546px;
+  top: 80px;
+}
+
+#email-placeholder {
+  font-weight: bold;
+  border: 1px;
+  border-left: 1px solid rgb(78, 71, 71);
+  border-right: 1px solid rgb(78, 71, 71);
+  border-top: 1px solid rgb(78, 71, 71);
+  block-size: 15px;
+  max-width: 400px;
+  margin: auto; 
+  padding: 10px;
+  position: relative;
+  left: 550px;
+  top: 80px;
+}
+
+.container {
+  background-color: #cd4d00ff;
+  border: 2px;
+  padding: 40px;
+  max-width: 1920px;
+  max-height: 80px;
+  margin: auto;
+  position: relative;
+  top: 60px;
+}
+
+#second-p {
+  border: 1px;
+  padding: 30px;
+  max-width: 200px;
+  margin:auto;
+  background-color: white;
+  position: relative;
+  left: -500px;
+  bottom: 15px;
+}
+
+#third-p {
+  border: 1px;
+  padding: 30px;
+  max-width: 200px;
+  margin: auto;
+  background-color: white;
+  position: relative;
+  bottom: 135px;
+}
+
+#fourth-p {
+  border: 1px;
+  padding: 30px;
+  max-width: 200px;
+  margin:auto;
+  background-color: white;
+  position: relative;
+  right: -500px;
+  bottom: 250px;
 }
 </style>
 <body>
 
   <!-- Head section -->
-  <h1><strong>Projeto seletivo Future4</strong></h1>
+  <h1>Projeto seletivo Future4</h1>
 
   <!-- Local Image -->
   <img id="image1" src="future4.jpg" alt="Image Load Fail">
 
   <!-- Lower paragraphs -->
-  <p id="first-paragraph"><em>Turma Web Full Stack 01</em></p>
-  <p id="second-paragraph">HTML</p>
-  <p id="third-paragraph">CSS</p>
-  <p id="fourth-paragraph">JavaScript</p>
-
+  <p id="first-p">Turma Web Full Stack 01</p>
+    <div class="container">
+      <div id="second-p">
+        <p>HTML</p>
+      </div>
+      <div id="third-p">
+        <p>CSS</p>
+      </div>
+      <div id="fourth-p">
+        <p>Javascript</p>
+      </div>
+    </div>
   <!-- Email Form -->
-  <div>
+  <div id="email-form">
     <label for="email"></label>
-    <input type="email" name="email" placeholder="Coloque aqui o seu email">
-    <button type="submit">Enviar</button>
+    <input id="email-placeholder" type="email" name="email" placeholder="Coloque aqui o seu email">
+    <button id="email-button" type="submit">Enviar</button>
   </div>
 </form>
 </body>
