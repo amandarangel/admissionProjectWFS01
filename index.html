@@ -6,23 +6,39 @@
   <meta name="description" content="Esse é o site do projeto seletivo da future4">
   <title>Projeto Seletivo Future 4</title>
 </head>
-
+<!-- CSS -->
+<style>
+body {
+  background-color: #595f96ff;
+}
+h1 {
+  font: 1em sans-serif;
+  color: white
+}
+#image1 {
+  height: 210px;
+  width: 450px;
+}
+</style>
 <body>
 
   <!-- Head section -->
   <h1><strong>Projeto seletivo Future4</strong></h1>
 
   <!-- Local Image -->
-  <img src="future4.jpg" alt="Image Load Fail">
+  <img id="image1" src="future4.jpg" alt="Image Load Fail">
 
-  <!-- Lower paragraph -->
-  <p><em>Turma Web Full Stack 01</em></p>
+  <!-- Lower paragraphs -->
+  <p id="first-paragraph"><em>Turma Web Full Stack 01</em></p>
+  <p id="second-paragraph">HTML</p>
+  <p id="third-paragraph">CSS</p>
+  <p id="fourth-paragraph">JavaScript</p>
 
-    <!-- Email Form -->
-<form action="">
+  <!-- Email Form -->
   <div>
     <label for="email"></label>
-    <input type="email" id="email">
+    <input type="email" name="email" placeholder="Coloque aqui o seu email">
+    <button type="submit">Enviar</button>
   </div>
 </form>
 </body>
