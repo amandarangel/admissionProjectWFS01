@@ -16,13 +16,17 @@ body {
 }
 
 h1 {
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+  text-align: center;
   font-family: sans-serif;
   font-weight: bolder;
   font-size: 30px;
   color: white;
-  text-align: center;
   position: relative;
   top: 60px;
+  overflow: auto;
 }
 
 #image1 {
@@ -70,7 +74,6 @@ margin-left: 40px;
 margin-right: 40px;
 padding: 55px;
 width: 300px;
-overflow: auto;
 font-family: sans-serif;
 font-weight: bold;
 font-size: 18px;
@@ -99,7 +102,7 @@ color: #cd4d00ff;
   position: relative;
   left: 33%;
   border: 0.1px solid black;
-  outline: none;
+  
 } 
 
 #email-button {
@@ -115,6 +118,7 @@ color: #cd4d00ff;
   left: 32%;
   border: 0.1px solid black;
 }
+
 
 
 
