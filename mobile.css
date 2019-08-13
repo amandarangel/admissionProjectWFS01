@@ -1,1 +1,57 @@
 
+
+
+.header {
+height: 500px;
+padding: 30px;
+overflow: hidden;
+}
+
+h1 {
+padding-top: 20px;
+padding-bottom: 70px;
+}
+
+#image1 {
+width: 100%;
+height: 35%;
+position: unset;
+padding: 0;
+margin-bottom: 25px;
+}  
+
+#first-p {
+padding-top:60px;
+padding-right: 10px;
+}
+
+.boxes {
+text-align: center;
+padding: 20px;
+width: 100%;
+overflow: hidden;
+
+}
+
+#box {
+display: 
+width: 280px;
+padding: 40px;
+font-size: 14px;
+margin-right: 10px;
+margin-left: 0px;
+}
+
+.email-form {
+width: 100%;
+overflow: hidden;
+padding: 0;
+padding-left: 10px;
+}
+
+#email-placeholder {
+   padding: 5px; 
+   width: 55%;
+}
+
+

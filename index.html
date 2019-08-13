@@ -5,38 +5,44 @@
   <!-- Site Description -->
   <meta name="description" content="Esse é o site do projeto seletivo da future4">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, inicial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" media="screen and (max-width: 768px)" href="./mobile.css">
+ 
   <title>Projeto Seletivo Future 4</title>
 </head>
+
 <body>
+    <section class="header">
+      <h1>Projeto seletivo Future4</h1>
 
+      <img id="image1"src="future4.jpg" alt="Image Load Fail">
 
-  <!-- Head section -->
-  <div>
-    <div id="wireframe">
-  <h1>Projeto seletivo Future4</h1>
+      <p id="first-p">Turma Web Full Stack 01</p>
+    </section>
 
-  <!-- Local Image -->
-  <img id="image1" src="future4.jpg" alt="Image Load Fail">
-
-  <!-- Lower paragraphs -->
-  <p id="first-p">Turma Web Full Stack 01</p>
-    <div class="container">
-      <p>HTML</p>
-      <p>CSS</p>
-      <p>Javascript</p>
-      </div>
+  <section class="boxes">
+    <div id="box">
+      <h2>HTML</h2>
+    </div>
+    <div id="box">
+      <h2>CSS</h2>
+    </div>
+    <div id="box">
+      <h2>Javascript</h2>
+    </div>
+  </section>
+     
     
   <!-- Email Form -->
 <onload='document.form1.email.focus()'>
-  <div class="email-form">
+  <section class="email-form">
     <form name=form1 action="#">
       <label for="email"></label>
-    <input id="email-placeholder" type="text" name="email" placeholder="Coloque aqui o seu email" return input>
+    <input id="email-placeholder" type="text" name="email" placeholder=" Coloque aqui o seu email" return input>
     <button class= "Validate" id="email-button" type="submit" name="validate" value="validate" onclick="ValidateEmail(document.form1.email)" onclick="alert(document.getElementById('email-placeholder').value)" value="Enviar">Enviar</button>
    </form>
-  </div>
+  <section>
 
 <script src="script.js"></script>
 </body>
