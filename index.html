@@ -2,10 +2,12 @@
 <html>
 
 <head>
-  <!-- Site Description -->
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="description" content="Esse é o site do projeto seletivo da future4">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" media="screen and (max-width: 812px)" href="./mobile.css">
  
@@ -43,7 +45,7 @@
     <form name=form1 action="#">
       <label for="email"></label>
     <input id="email-placeholder" type="text" name="email" placeholder=" Coloque aqui o seu email" return input>
-    <button class= "Validate" id="email-button" type="button" name="validate" value="validate" onclick="ValidateEmail(document.form1.email)" onclick="alert(document.getElementById('email-placeholder').value)" value="Enviar">Enviar</button>
+    <button id="email-button" type="button" name="validate" value="validate" onclick="ValidateEmail(document.form1.email)" onclick="alert(document.getElementById('email-placeholder').value)" value="Enviar">Enviar</button>
   </form>
   <section>
 

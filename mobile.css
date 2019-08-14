@@ -47,14 +47,9 @@ margin-left: 0px;
 
 .email-form {
 width: 100%;
-overflow: hidden;
-padding: 0;
-padding-left: 10px;
 }
 
 #email-placeholder {
-   padding: 5px; 
-   width: 55%;
-}
-
+width: 55%;
+} 
 
